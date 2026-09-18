@@ -15,7 +15,7 @@ int main()
     // output
     printf(" the output of data \n");
     for (int i = 0; i < size; i++)
-    {
+    {  
         cout << data[i] << " \t";
     }
     printf("\n");
@@ -74,6 +74,6 @@ int main()
     }
     else
     {
-        cout << "not Found";
+        cout << "not Found in the file";
     }
 }
